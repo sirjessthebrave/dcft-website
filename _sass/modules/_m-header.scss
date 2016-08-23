@@ -5,6 +5,16 @@
   font-size: .8em;
   position: relative;
   z-index: 1;
+
+  .logo {
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: none;
+    .bold {
+      text-transform: uppercase;
+      font-weight: 900;
+    }
+  }
   .l-wrapper-large {
     @media(min-width: $break-medium) {
       @include flexbox;
@@ -28,7 +38,6 @@
     @include flex-shrink(0);
     display: block;
     margin: 0 auto;
-    max-width: 150px;
   }
 
   &__links {
