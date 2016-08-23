@@ -6,9 +6,11 @@
     </a>
     <ul class="m-header__links">
       <li><a href="{{ "events.html" | prepend: site.baseurl }}" 
-          onclick="ga('send', 'event', 'ft-events', 'click', 'events-intrest'); console.log('clicked');">Events</a></li>
-      <li><a href="{{ "involve.html" | prepend: site.baseurl }}">Get Involved</a></li>
-      <li><a href="{{ "members.html" | prepend: site.baseurl }}">Members</a></li>
+          onclick="ga('send', 'event', 'ft-events', 'click', 'events-intrest');">Events</a></li>
+      <li><a href="{{ "involve.html" | prepend: site.baseurl }}"
+          onclick="ga('send', 'event', 'ft-involve', 'click', 'involve-intrest');" >Get Involved</a></li>
+      <li><a href="{{ "members.html" | prepend: site.baseurl }}"
+          onclick="ga('send', 'event', 'ft-members', 'click', 'members-intrest');">Members</a></li>
     </ul>
   </div>
 </header>
